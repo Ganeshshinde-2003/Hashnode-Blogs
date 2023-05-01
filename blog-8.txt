@@ -1,5 +1,3 @@
-Monitoring Performance with the PageSpeed Insights API
-
 Monitoring Performance with the PageSpeed Insights API 🚀
 
 When it comes to website performance, monitoring is key. One tool you can use is the PageSpeed Insights API. In this blog, we'll explore how to use the API to monitor and improve your website's performance.
