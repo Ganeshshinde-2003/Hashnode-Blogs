@@ -1,0 +1,85 @@
+How to connect a React frontend with a NodeJS/Express backend
+
+Introduction:
+
+In modern web development, it is common to separate the frontend and backend of web applications into different projects. ReactJS is one of the most popular frontend frameworks, while NodeJS and Express are commonly used on the backend. In this article, we will explore how to connect a React frontend with a NodeJS/Express backend.
+
+Step 1: Setting up the Backend The first step is to create a NodeJS/Express backend. We can start by creating a new directory for our project and then initializing a new NodeJS project with the following command:
+
+```npm init```
+After initializing our project, we can install the Express package by running the following command:
+
+npm install express
+We can then create a new file called index.js in our project directory and set up a basic Express server by adding the following code:
+
+
+```const express = require('express');
+const app = express();
+
+app.listen(3000, () => {
+  console.log('Server started on port 3000');
+});```
+This code creates a new Express app and starts a server listening on port 3000. We can start our server by running the following command:
+
+
+```node index.js```
+We should see a message in our console saying that the server has started on port 3000.
+
+Step 2: Creating an API Endpoint The next step is to create an API endpoint that our React frontend can communicate with. We can do this by adding the following code to our index.js file:
+
+
+```app.get('/api/hello', (req, res) => {
+  res.send('Hello from the backend!');
+});```
+This code sets up a new route that listens for GET requests to the /api/hello endpoint. When a request is received, the server will respond with the string 'Hello from the backend!'.
+
+Step 3: Setting up the Frontend The next step is to create a new React project for our front end. We can start by running the following command:
+
+
+```npx create-react-app my-app```
+This will create a new React project in a directory called my-app. We can navigate into this directory and start our React development server by running the following command:
+
+
+```cd my-app
+npm start```
+Our React development server should start on port 3000.
+
+Step 4: Fetching Data from the Backend Now that we have our backend and frontend set up, we can create a new component in our React app that will fetch data from our backend. We can start by creating a new file called Hello.js in our src directory and adding the following code:
+
+
+```import React, { useState, useEffect } from 'react';
+
+function Hello() {
+  const [message, setMessage] = useState('');
+
+  useEffect(() => {
+    fetch('/api/hello')
+      .then(res => res.text())
+      .then(data => setMessage(data));
+  }, []);
+
+  return (
+    <div>
+      <h1>{message}</h1>
+    </div>
+  );
+}```
+
+export default Hello;
+This code creates a new React component that will fetch data from our backend when it is mounted to the DOM. We are using the useState and useEffect hooks to manage our component's state and fetch data from the /api/hello endpoint using the fetch API.
+
+Step 5: Rendering the Component Finally, we can render our Hello component in our App.js file by adding the following code:
+
+
+```import React from 'react';
+import Hello from './Hello';
+
+function App() {
+  return (
+    <div>
+      <Hello />
+    </div>
+  );
+}
+
+export default App;```

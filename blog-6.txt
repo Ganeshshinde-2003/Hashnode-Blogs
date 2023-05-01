@@ -1,0 +1,23 @@
+Don't Develop Just for Yourself - A Developer's Checklist to Accessibility
+
+As a developer, it's important to create websites and applications that are accessible to everyone, including those with disabilities. By following this checklist, you can ensure that your projects are inclusive and user-friendly:
+
+👀 Consider the user: Don't design just for yourself, but think about your users and their unique needs.
+
+🧐 Test for accessibility: Use tools like screen readers, keyboard-only navigation, and color contrast checkers to test your website or application's accessibility.
+
+🎨 Use color wisely: Use high contrast colors that are easy to read and avoid relying solely on color to convey information.
+
+👩‍🦯 Add alt text: Make sure to add descriptive alt text for images and other non-text content to make them accessible for users with visual impairments.
+
+🎥 Add captions and transcripts: For multimedia content like videos and podcasts, provide captions and transcripts for users who are deaf or hard of hearing.
+
+🗣️ Use clear and concise language: Write in plain language and avoid using jargon or overly technical terms.
+
+🔍 Use semantic HTML: Use semantic HTML tags like <header>, <main>, and <nav> to make your website more accessible for screen readers.
+
+🕹️ Provide keyboard navigation: Ensure that your website can be navigated using a keyboard alone, without requiring a mouse or other pointing device.
+
+👥 User test: Get feedback from users with disabilities to ensure that your website or application is truly accessible to everyone.
+
+By following these tips, you can make sure that your website or application is accessible to everyone, regardless of their abilities or disabilities. Creating an inclusive online experience not only benefits users, but it also improves the usability and overall quality of your project. So, let's make the web a more accessible place for everyone! ♿

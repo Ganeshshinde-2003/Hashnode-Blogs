@@ -1,0 +1,17 @@
+The best web accessibility tools for developers in 2021
+
+🌐🛠️ The Best Web Accessibility Tools for Developers in 2021 🚀
+
+As a developer, it's crucial to ensure that your website or application is accessible to everyone. Luckily, there are several web accessibility tools available to help you achieve this goal. In this blog post, we'll look at some of the best tools that you can use to make your website or application more accessible.
+
+1️⃣ Axe: Axe is an open-source accessibility testing engine that integrates with various web development tools.
+
+2️⃣ Lighthouse: Lighthouse is an automated tool that checks your website's accessibility, performance, and more.
+
+3️⃣ Wave: Wave is a free web accessibility evaluation tool that analyzes your website's HTML and provides a report.
+
+4️⃣ Tenon.io: Tenon.io is a cloud-based accessibility testing tool that provides detailed reports on accessibility issues.
+
+5️⃣ Accessibility Insights: Accessibility Insights is a browser extension that helps you find and fix accessibility issues.
+
+By using these tools, you can identify and fix accessibility issues on your website or application, ensuring that it's accessible to everyone. Remember, accessibility isn't just the right thing to do, it's also the law!
